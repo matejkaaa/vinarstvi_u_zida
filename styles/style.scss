@@ -1,0 +1,63 @@
+$primary: #fdfcea;
+$secondary: #00ff40;
+$success: #00ffff;
+
+$border-radius: 0rem;
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .navbar-brand img {
+    height: 48px;
+    width: auto;
+    margin-right: 10px;
+  }
+
+  .hero {
+    background-image: url('https://images.pexels.com/photos/442116/pexels-photo-442116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .highlight-section {
+    background-color: white;
+    padding: 4rem 2rem;
+  }
+
+  .highlight-section img {
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  footer {
+    background-color: $primary;
+    padding: 2rem;
+    text-align: center;
+  }
+ 
+  .products-section {
+    background-color: white;
+    padding: 4rem 2rem;
+  }
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .contact-section {
+    padding: 4rem 2rem;
+    background-color: white;
+  }
+
+@import "../bootstrap/scss/bootstrap.scss";
